@@ -1,0 +1,167 @@
+* {
+	margen: 0px ;
+	relleno: 0px ;
+}
+
+html,cuerpo {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color:  #000;
+	font-size: 38px ;
+	text-align: centro;
+	font-weight: negrita;
+	text-shadow: 0px  0px  12px   #f00;
+	margin-top: 15px ;
+}
+
+h2 {
+	color:  #000;
+	font-size: 34px ;
+	text-align: centro;
+	font-weight: negrita;
+	text-shadow: 0px  0px  12px   #f00;
+	margen-inferior: 15px ;
+}
+
+#contenedor {
+	ancho: 100% ;
+	max-width: 100% ;
+	altura: auto;
+	margen: 0px  automático;
+	relleno: 0px ;
+}
+
+#formulario {
+	ancho: 100% ;
+	max-width: 100% ;
+	altura: auto;
+	margen: 0px  automático;
+	relleno: 0px ;
+}
+
+#ir_atras { 
+	color:  #f00; 
+	display: bloquear; 
+	ancho: 120px ; 
+	cursor: puntero; 
+	margen: 20px  auto 0px  auto; 
+	relleno: 5px ; 
+	font-size: 18px ; 
+	text-align: centro; 
+	font-weight: negrita; 
+	texto-decoración: ninguno; 
+}
+
+#ir_atras:mantenerel mouse { 
+	text-shadow: 0px  0px  2px   #000; 
+	text-decoration: subrayado; 
+}
+
+#enlace_borrar {
+	color:  #f00;
+	font-weight: negrita;
+	texto-decoración: ninguno;
+	font-size: 18px ;
+	text-transform: mayúsculas;
+	font-style: cursiva;
+}
+
+#enlace_borrar:mantenerel mouse {
+	text-shadow: 0px  0px  2px   #000;
+	text-decoration: subrayado;
+}
+
+. mensaje_error {
+	color:  #000;
+	font-weight: negrita;
+	text-align: centro;
+	font-size: 16px;
+	margin-top: 4px ;
+	margen-inferior: 4px ;
+	display: bloquear;
+	text-shadow: 0px  0px  8px   #f00;
+}
+
+conjunto de campos {
+	width: 30%;
+	max-width: 100% ;
+	altura: auto;
+	margen: 20px  automático;
+	relleno: 2% ;
+	borde: 2px  sólido  #f00;
+	color de fondo:  #d6d4d4;
+	radio-borde: 1em ;
+	-webkit-border-radius: 1em ;
+}
+
+leyenda {
+	text-align: centro;
+	font-weight: negrita;
+	text-shadow: 0px  0px  4px   #f00;
+}
+
+etiqueta {
+	color:  #000;
+	display: bloquear;
+	text-align: centro;
+	font-weight: negrita;
+	text-shadow: 0px  0px  2px   #f00;
+}
+
+input[type="texto"] {
+	width: 260px;
+	altura: auto;
+	display: bloquear;
+	font-weight: negrita;
+	margen: 8px  automático;
+	borde: 1px  sólido  #000;
+}
+
+input[type="enviar"] {
+	width: 150px;
+	altura: auto;
+	display: bloquear;
+	relleno: 2% ;
+	margen: 0px  automático;
+	color:  #f00;
+	cursor: puntero;
+	font-weight: negrita;
+	color de fondo:  #000;
+	text-align: centro;
+	borde: 2px  sólido  #f00;
+	text-transform: mayúsculas;
+}
+
+input[type="submit"]:hover {
+	color:  #000;
+	background-color:  #f00;
+	borde-color:  #000;
+}
+
+mesa {
+	width: 60%;
+	max-width: 100% ;
+	altura: auto;
+	margen: 0px  automático;
+}
+
+tabla tr {
+	vertical-alinear: medio;
+}
+
+tabla th {
+	color:  #f00;
+	font-weight: negrita;
+	text-align: centro;
+	font-size: 25px;
+	text-decoration: subrayado;
+	text-shadow: 0px  0px  2px   #000;
+}
+
+tabla td {
+	text-align: centro;
+	font-weight: negrita;
+	línea-altura: 2em ;
+}
